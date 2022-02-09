@@ -9,6 +9,10 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -53,7 +57,6 @@ header{
 }
 
 #nav-bar a{
-    text-decoration: none;
     color: white;
     font-weight: bold;
 }
@@ -68,7 +71,7 @@ header{
     width: 70px;
     text-align: center;
     line-height: 40px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-weight: bold;
 
 }
@@ -79,14 +82,15 @@ header{
 /* HERO SECTION */
 .hero{
     height: 400px;
-    background-color: #C4C4C4;
+    background-image: url(./../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
 .hero .c-hero {
-    height: 350px;
+    height: 85%;
     width: 70%;
-    background-color: aqua;
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -95,23 +99,50 @@ header{
     transform: translate(-50%, -50%);
 }
 
-.call-to-action{
-    height: 50px;
-    width: 200px;
-    margin-right: 20px;
-    background-color: blueviolet;
-    position: absolute;
-    bottom: 5%;
+.c-hero h2{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3em;
+    font-weight: 800;
 }
 
-.c1{
-    float: left;
-    left: 20%;
+.c-hero p{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
-.c2{
+.call-to-action-1{
+    width: 30%;
     float: left;
-    right: 20%;
+}
+
+.call-to-action-2{
+    width: 50%;
+    float: right;
+}
+
+.button-container{
+    width: 600px;
+    margin: 40px auto;
+}
+
+.c1 #mac-download{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.c2 #browser{
+    padding: 10px;
+    color: white;
+    background-color: #23272A;
+    border-radius: 20px;
 }
 /* HERO SECTION */
 
@@ -144,9 +175,29 @@ header{
     background-color: black;
 }
 
+.s1 img{
+    width: 550px;
+}
+
 .s2{
     float: left;
     background-color: aquamarine;
+    position: relative;
+}
+
+.s2 .chat{
+    position: absolute;
+    left: 100px;
+}
+
+.s2 .chat h2{
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+.s2 .chat p{
+    padding-top: 10px;
+    font-weight: bold;
 }
 
 .download{
