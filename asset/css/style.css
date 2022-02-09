@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -14,36 +18,59 @@
 
 /* HEADER */
 header{
-    height: 100px;
-    background-color: #C4C4C4;
+    background-color: #3161E0;
 }
 
 .up-section{
     width: 70%;
-    height: 100%;
     margin: 0 auto;
-    background-color: blue;
 }
 
-#logo{
-    width: 20%;
-    height: 100%;
-    background-color: blueviolet;
+.logo-login{
     float: left;
+    width: 20%;
+    position: relative;
+    right: 0;
+}
+
+.logo-login a img{
+    padding-top: 15px;
 }
 
 #nav-bar{
     width: 60%;
-    height: 100%;
-    background-color: aqua;
     float: left;
 }
 
-#log-in{
-    width: 20%;
-    height: 100%;
-    background-color: blueviolet;
-    float: left;
+#nav-bar ul{
+    text-align: center;
+}
+
+#nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-login span{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 10px;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+
 }
 /* HEADER */
 
