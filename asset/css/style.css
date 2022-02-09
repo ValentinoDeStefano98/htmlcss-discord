@@ -1,0 +1,46 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* GENERAL */
+header{
+    height: 100px;
+    background-color: red;
+}
+
+.up-section{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+#logo{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+}
+
+#nav-bar{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+}
+
+#log-in{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+}
