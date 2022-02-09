@@ -10,8 +10,9 @@
     display: table;
     clear: both;
 }
-
 /* GENERAL */
+
+/* HEADER */
 header{
     height: 100px;
     background-color: #C4C4C4;
@@ -47,6 +48,8 @@ header{
 /* HEADER */
 
 /* MAIN */
+
+/* HERO SECTION */
 .hero{
     height: 400px;
     background-color: #C4C4C4;
@@ -54,7 +57,7 @@ header{
 }
 
 .hero .c-hero {
-    height: 300px;
+    height: 350px;
     width: 70%;
     background-color: aqua;
     position: absolute;
@@ -83,7 +86,9 @@ header{
     float: left;
     right: 20%;
 }
+/* HERO SECTION */
 
+/* SECTION */
 .info{
     background-color: red;
     height: 50vh;
@@ -101,3 +106,44 @@ header{
     right: 50%;
     transform: translate(-50%, -50%);
 }
+
+.container .section{
+    height: 100%;
+    width: 50%;
+}
+
+.s1{
+    float: left;
+    background-color: black;
+}
+
+.s2{
+    float: left;
+    background-color: aquamarine;
+}
+
+.download{
+    height: 100vh;
+    background-color: #C4C4C4;
+    position: relative;
+}
+
+.download div{
+    position: absolute;
+    width: 70%;
+    height: 85%;
+    background-color: aqua; 
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);       
+}
+/* SECTION */
+
+/* FOOTER */
+footer{
+    height: 400px;
+    background-color: black;
+}
+/* FOOTER */
