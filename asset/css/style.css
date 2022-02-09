@@ -148,7 +148,6 @@ header{
 
 /* SECTION */
 .info{
-    background-color: red;
     height: 50vh;
     position: relative;
 }
@@ -156,7 +155,6 @@ header{
 .container{
     width: 70%;
     height: 80%;
-    background-color: aqua;
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -172,16 +170,14 @@ header{
 
 .s1{
     float: left;
-    background-color: black;
 }
 
-.s1 img{
+.container .img{
     width: 550px;
 }
 
 .s2{
     float: left;
-    background-color: aquamarine;
     position: relative;
 }
 
@@ -196,6 +192,21 @@ header{
 }
 
 .s2 .chat p{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.s1 .chat{
+    position: absolute;
+    left: 100px;
+}
+
+.s1 .chat h2{
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+.s1 .chat p{
     padding-top: 10px;
     font-weight: bold;
 }
