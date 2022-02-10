@@ -12,6 +12,17 @@ body{
 
 html{
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.waves{
+    display: block;
+    height: 80px;
+    background-image: url(./../img/wave.svg);
+    /* background-color: #F6F6F6; */
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
 }
 
 a{
