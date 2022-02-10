@@ -41,15 +41,13 @@ li{
     background-color: #F6F6F6;
 }
 
-.waves{
-    height: 50px;
-    background-image: url(./../img/waves.svg);
+.wave{
+    display: block;
 }
 
-/* .waves-w{
-    height: 50px;
-    background-image: url(./../img/waves.svg);
-} */
+.waves-w{
+    margin-top: -50px;
+}
 /* GENERAL */
 
 /* HEADER */
